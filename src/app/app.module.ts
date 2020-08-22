@@ -10,6 +10,7 @@ import { MentoresComponent } from './components/mentores/mentores.component';
 import { MentorCardComponent } from './components/mentor-card/mentor-card.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { CarrerasComponent } from './components/carreras/carreras.component';
+import { CardHomeComponent } from './components/card-home/card-home.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { CarrerasComponent } from './components/carreras/carreras.component';
     MentorCardComponent,
     AboutmeComponent,
     CarrerasComponent,
+    CardHomeComponent,
   ],
   imports: [
     BrowserModule,
