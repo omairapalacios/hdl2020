@@ -1,0 +1,30 @@
+.title {
+    font-weight: 500;
+    font-size: 1.7em;
+    line-height: 100%;
+  }
+  .info {
+    background: rgba(255, 155, 113, 0.57);
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    background: #55ddff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1em;
+    a{
+      display:inline-block;
+      text-decoration:none;
+      cursor:pointer;
+      color:black;
+      margin: 2% 30px 2% 30px;
+    }
+  }
+  
+  
