@@ -1,0 +1,18 @@
+<div class=" card animated fadeIn fast m-4" style="width: 18rem;">
+  <div class="text-center">
+    <p class="mt-2 text-center"  style="font-size: 20px;">{{ mentor.nombre }}</p>
+    <img [src]="mentor.img" class="card-img-top" style="height: 220px; width: 200px;" [alt]="mentor.alias">
+  </div>
+  <p class="mt-4 text-center"  style="font-size: 15px;"> Profesión : {{ mentor.profesion }}</p>
+  <div class="mx-4">
+    <button (click)="showMentor()"
+    type="button" class="btn btn-sky btn-block m-1">
+    Ver Perfil
+  </button>
+    <a href="https://api.whatsapp.com/send?phone=920753323"
+    class="btn btn-pink btn-block m-1">
+    Contáctame
+  </a>
+  </div>
+  <!-- <a [routerLink]="['/mentor', i]"  class="btn btn-outline-primary btn-block">Ver más link</a> -->
+</div>
