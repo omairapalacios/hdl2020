@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { CarrerasService } from '../../services/carreras.service';
 
 @Component({
   selector: 'app-carreras',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarrerasComponent implements OnInit {
 
-  constructor() { }
+  carreras = [];
+
+  constructor(
+    private carrerasService: CarrerasService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
+    this.carreras = this.carrerasService.getCarreras();
   }
+  /* showMentor( id: number) {
+    return this.router.navigate(['/mentor', id]);
+  } */
 
 }
