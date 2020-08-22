@@ -9,6 +9,7 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { MentoresComponent } from './components/mentores/mentores.component';
 import { MentorCardComponent } from './components/mentor-card/mentor-card.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { CardHomeComponent } from './components/card-home/card-home.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { AboutmeComponent } from './components/aboutme/aboutme.component';
     MentoresComponent,
     MentorCardComponent,
     AboutmeComponent,
+    CardHomeComponent,
   ],
   imports: [
     BrowserModule,
