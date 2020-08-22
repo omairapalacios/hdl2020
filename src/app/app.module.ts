@@ -11,6 +11,7 @@ import { MentorCardComponent } from './components/mentor-card/mentor-card.compon
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { CarrerasComponent } from './components/carreras/carreras.component';
 import { CardHomeComponent } from './components/card-home/card-home.component';
+import { CardCarreraComponent } from './components/card-carrera/card-carrera.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { CardHomeComponent } from './components/card-home/card-home.component';
     AboutmeComponent,
     CarrerasComponent,
     CardHomeComponent,
+    CardCarreraComponent,
   ],
   imports: [
     BrowserModule,
