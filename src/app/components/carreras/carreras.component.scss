@@ -1,9 +1,16 @@
-.portada{
-    @media (max-width: 800px) {
-        width: 100%;
-        }
+.portada {
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 }
-.row{
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 100%;
 }
