@@ -4,6 +4,5 @@ export interface Mentor {
   profesion: string;
   bio: string;
   img: string;
-  grupo: string;
   id?: number;
 }

@@ -1,9 +1,15 @@
 .text-color{
+    font-family: 'Montserrat', sans-serif !important;
     background:#FF9B71;
     p{
         font-weight: bold;
         font-size: 20px;
     }
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 .btn-color{
@@ -14,11 +20,13 @@
 }
 
 .card-color{
+    font-family: 'Montserrat', sans-serif !important;
     background: #55DDFF;
     border-radius: 12px;
     border-color: #55DDFF;
     h5{
         font-size: 25px;
+        font-family: 'Montserrat', sans-serif !important;
         font-weight: bolder;
     }
 }
